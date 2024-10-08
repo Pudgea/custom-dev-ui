@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: hsl(77, 23%, 12%);
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+body{
+    background-color: #e1ddcc;
+    position: relative;
+}
+button{
+    height: 45px;
+    background-color: #759242;
+    border: 0;
+    border-radius: 10px;
+    font-size: 16px;
+}
+button:active{
+    background-color: #3e5319;
+}
+#massive-text {
+    width: 100%;  /* Fixed width */
+    height: 180px;  /* Fixed height */
+    resize: none;   /* Disable resizing */
+    background-color: #ffffffcc;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px;
+}
+
+.header-container{
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+}
+.header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 20px;
+    background-color: #F2F2EF;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #e1ddcc;
+}
+.header button{
+    width: 45px;
+    font-size: 25px;
+}
+.school-name{
+    font-size: 30px;
+    font-weight: 800;
+    color: hsl(77, 23%, 12%);
+}
+
+main{
+    padding: 10px;
+    padding-top: 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.block{
+    background-color: #F2F2EF;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.block-header{
+    padding-block: 10px;
+}
+.block-header p{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.block-main{
+    padding: 10px;
+    max-height: 300px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.block-main-feedback{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.block-main-feedback button{
+    width: 45px;
+}
+.block-main select{
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: 0;
+    flex-grow: 1;
+}
+.block-inner{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #ffffff90;
+}
+.block-inner-name{
+    font-size: 20px;
+}
+.join{
+    width: 60px;
+}
